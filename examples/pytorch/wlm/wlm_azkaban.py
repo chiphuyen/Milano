@@ -22,7 +22,7 @@ params_to_tune = {
     "type": "values", "values": [5, 10, 12, 15, 18, 19, 20, 22, 25, 30],
   },
   "--nhid": {
-    "type": "values", "values": [256, 320, 384, 448, 512, 576, 640, 704, 768, 896, 1024, 1280]
+    "type": "values", "values": [256, 320, 384, 448, 512, 576, 640, 704, 768, 896, 1024, 1152, 1280]
   },
   "--bptt": {
     "type": "values", "values": [16, 32, 48, 64, 96, 128, 160]
@@ -74,16 +74,12 @@ backend_params = {
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=0"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=0"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=0"]},
-    {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=0"]},
-    {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=1"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=1"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=1"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=1"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=2"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=2"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=2"]},
-    {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=2"]},
-    {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=3"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=3"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=3"]},
     {"num_workers": 1, "env_vars": ["CUDA_VISIBLE_DEVICES=3"]},
