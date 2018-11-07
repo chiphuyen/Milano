@@ -13,37 +13,37 @@ params_to_tune = {
     "type": "values", "values": ["LSTM", "GRU", "QRNN"]
   },
   "--emsize": {
-    "type": "values", "values": [128, 160, 196, 224, 256, 320, 384, 448, 512, 576, 640, 704, 768, 896, 1024]
+    "type": "values", "values": [160, 196, 224, 256, 320, 384, 448, 512, 576, 640, 704, 768, 896, 1024]
   },
   "--nlayers": {
     "type": "values", "values": [1, 2, 3]
   },
   "--lr": {
-    "type": "values", "values": [5, 10, 12, 15, 18, 19, 20, 22, 25, 30, 40],
+    "type": "values", "values": [5, 10, 12, 15, 18, 19, 20, 22, 25, 30],
   },
   "--nhid": {
-    "type": "values", "values": [224, 256, 320, 384, 448, 512, 576, 640, 704, 768, 896, 1024, 1280]
+    "type": "values", "values": [256, 320, 384, 448, 512, 576, 640, 704, 768, 896, 1024, 1280]
   },
   "--bptt": {
-    "type": "values", "values": [16, 32, 48, 64, 96, 128, 160, 196]
+    "type": "values", "values": [16, 32, 48, 64, 96, 128, 160]
   },
   "--clip": {
-    "type": "range", "min": 0.1, "max": 2.0
+    "type": "range", "min": 0.1, "max": 1.8
   },
   "--dropout": {
     "type": "range", "min": 0.0, "max": 0.9
   },
   "--dropouth": {
-    "type": "range", "min": 0.0, "max": 0.9
+    "type": "range", "min": 0.0, "max": 0.8
   },
   "--dropoute": {
-    "type": "range", "min": 0.0, "max": 0.9
+    "type": "range", "min": 0.0, "max": 0.5
   },
   "--dropouti": {
-    "type": "range", "min": 0.0, "max": 0.9
+    "type": "range", "min": 0.0, "max": 0.8
   },
   "--wdrop": {
-    "type": "range", "min": 0.0, "max": 0.9
+    "type": "range", "min": 0.0, "max": 0.8
   },
 }
 
