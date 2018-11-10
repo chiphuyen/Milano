@@ -2,7 +2,7 @@ import argparse
 
 def main():
     parser = argparse.ArgumentParser(description='visualizing Milano results')
-    parser.add_argument('--file', type=str, default='results.csv',
+    parser.add_argument('--file', type=str, default='results_2.csv',
                         help='location of the result file')
     parser.add_argument('--n', type=int, default=-1,
                         help='number of results to visualize. -1 for all')

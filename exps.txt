@@ -1,0 +1,10 @@
+CUDA_VISIBLE_DEVICES=0 python main.py --epochs 80 --data /home/chipn/data/childbooks --save childbooks.pt --seed 1882 --model=LSTM --emsize=512 --nlayers=3 --lr=19 --nhid=1024 --bptt=32 --clip=0.19351900496152954 --dropout=0.28496137879358824 --dropouth=0.45556793390110484 --dropoute=0.00017032011181926656 --dropouti=0.49212967341104363 --wdrop=0.7151802365616606
+
+CUDA_VISIBLE_DEVICES=0 python main.py --epochs 100 --data /home/chipn/data/childbooks --save childbooks_exp2.pt --seed 1882 --model=LSTM --emsize=576 --nlayers=2 --lr=15 --nhid=1152 
+--bptt=32 --clip=0.9407425926877614 --dropout=0.11013553315746387 --dropouth=0.02297180725445589 --dropoute=0.15214968611715113 --dropouti=0.252194750342057 --wdrop=0.5223094773445752
+
+CUDA_VISIBLE_DEVICES=0 python main.py --epochs 100 --data /home/chipn/data/childbooks --save childbooks_exp3.pt --seed 1882 --model=LSTM --emsize=1024 --nlayers=1 --lr=25 --nhid=768 --bptt=32 --clip=0.1341631818454348 --dropout=0.37169562512190674 --dropouth=0.20571561620365833 --dropoute=0.060882612345078135 --dropouti=0.6346445570546203 --wdrop=0.032985135263543255
+
+CUDA_VISIBLE_DEVICES=0 python main.py --epochs 100 --data /home/chipn/data/childbooks --save childbooks_exp4.pt --seed 1882 --model=LSTM --emsize=640 --nlayers=2 --lr=19 --nhid=1024 --bptt=16 --clip=0.46402525030413955 --dropout=0.2666787893861742 --dropouth=0.6065128291847878 --dropoute=0.09357706353823098 --dropouti=0.0938720221316876 --wdrop=0.5692208634882077
+
+CUDA_VISIBLE_DEVICES=1 python main.py --epochs 100 --data /home/chipn/data/childbooks --save childbooks_exp5.pt --seed 1882 --model=LSTM --emsize=576 --nlayers=3 --lr=18 --nhid=1152 --bptt=48 --clip=0.9431390850687401 --dropout=0.09351714464370996 --dropouth=0.2379440016364301 --dropoute=0.15413135362263264 --dropouti=0.782495906512577 --wdrop=0.2983586710139643
